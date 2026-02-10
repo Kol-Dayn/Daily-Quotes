@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="daily quotes" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preload" href="fonts/font.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/font.woff" as="font" type="font/woff" crossorigin>
+    <title>daily quotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="https://t.me/ibuzy" class="logo" target="_blank" id="logoLink">
+        // ibuzy<br>projects
+    </a>
+
+    <div class="daily-quote" id="dailyQuote">
+        daily quote
+    </div>
+
+    <div class="buttons-container">
+        <button class="animations-button" id="animationsBtn">Animations</button>
+        <button class="black-button" id="blackBtn">Black</button>
+    </div>
+
+    <div class="footer" id="footer">
+        <button class="footer-btn" id="aboutBtn">about us</button>
+        <span class="footer-separator">|</span>
+        <button class="footer-btn" id="archiveBtn">archive</button>
+    </div>
+
+    <a href="https://int10h.org/oldschool-pc-fonts/" class="font-credit" target="_blank" id="fontCredit">WebPlus IBM MDA<br>CC BY-SA 4.0</a>
+
+    <div class="container">
+        <div class="date-text" id="dateText"></div>
+        <div class="text-container">
+            <span class="typing-text" id="typingText"></span><span class="cursor" id="cursor"></span>
+            <div class="about-wrapper">
+                <span class="about-text" id="aboutText"></span><span class="cursor" id="aboutCursor"></span>
+            </div>
+        </div>
+    </div>
+
+    <button class="language-button" id="languageBtn">
+        <span class="language-flag flag-en"></span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
